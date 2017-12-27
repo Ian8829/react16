@@ -1,5 +1,5 @@
 const person = { name: 'Max' };
-const secondPerson = person;
+const secondPerson = { ...person };
 
 person.name = 'Manu';
 
